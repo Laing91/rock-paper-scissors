@@ -1,0 +1,51 @@
+body {
+    display: grid;
+    place-items: center;
+    background-color: skyBlue;
+    font-family: "Supermercado One", sans-serif;
+  }
+  
+  p{
+    text-align: center;
+  }
+  button {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Supermercado One", sans-serif;
+    border-radius: 5px;
+  }
+  
+  #result {
+    font-size: 20px;
+  }
+  
+  .player-score-box {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    padding: 10px 10px 0;
+    width: 120px;
+    height: 120px;
+  }
+  .computer-score-box {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    padding: 10px 10px 0;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    
+  }
+  .score {
+    text-align: center;
+    font-size: 42px;
+  }
+  
+  .hidden{
+    display: none;
+  }
