@@ -1,8 +1,9 @@
 body {
     display: grid;
     place-items: center;
-    background-color: skyBlue;
+    background-color: #171717;
     font-family: "Supermercado One", sans-serif;
+    color: #f79b7c;
   }
   
   p{
