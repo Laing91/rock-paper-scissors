@@ -10,7 +10,6 @@ body {
     color: #faeda2;
   }
 
-/* Added img hover shake animation to selections, instead of text buttons */
   img {
     height: 100px;
     width: 100px;
@@ -81,3 +80,48 @@ body {
   .hidden{
     display: none;
   }
+
+  /* Media Queries */
+
+  @media screen and (max-width: 769px) {
+    .player-score-box {
+      top: 50%;
+      left: 10%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .computer-score-box {
+      top: 50%;
+      right: 10%;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+  .player-score-box {
+    top: 50%;
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .computer-score-box {
+    top: 50%;
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .player-score-box {
+    top: 50%;
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .computer-score-box {
+    top: 50%;
+    right: 10%;
+  }
+}
+
