@@ -10,6 +10,7 @@ body {
     color: #faeda2;
   }
 
+/* Added img hover shake animation to selections, instead of text buttons */
   img {
     height: 100px;
     width: 100px;
